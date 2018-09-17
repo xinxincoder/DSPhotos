@@ -1,0 +1,6 @@
+framework module DSPhotos {
+  umbrella header "DSPhotos-umbrella.h"
+
+  export *
+  module * { export * }
+}

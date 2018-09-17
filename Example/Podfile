@@ -1,5 +1,5 @@
 use_frameworks!
-
+platform :ios, '9.3'
 target 'DSPhotos_Example' do
   pod 'DSPhotos', :path => '../'
 

@@ -1,0 +1,25 @@
+PODS:
+  - DSPhotos (1.0.0):
+    - SDWebImage (= 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - DSPhotos (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DSPhotos:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSPhotos: 86f33c73e7606e8bffb06678712a11fb7d7cd981
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: ab6927a169212646032f408c431ee34db3353537
+
+COCOAPODS: 1.5.3

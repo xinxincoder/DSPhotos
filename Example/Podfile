@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSPhotos_Example' do
+  pod 'DSPhotos', :path => '../'
+
+  target 'DSPhotos_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
